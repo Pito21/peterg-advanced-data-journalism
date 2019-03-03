@@ -1,0 +1,5 @@
+The repository I cloned and explored was created by FiveThirtyEight and titled "russian-troll-tweets". It can be found here: https://github.com/fivethirtyeight/russian-troll-tweets
+
+The repository lists 13 .csv files containing an enormous database of 3 million tweets from trolls associated with the Russian Internet Research Agency. According to FiveThirtyEight, this is the fullest empirical record to date of the Russian propaganda campaign on social media. The data was pulled by two researchers who decided to share it with reporters so that a more comprehensive analysis can be conducted.
+
+The spreadsheets provide important details about each tweet such as its author, content, date of publication as well as the account type. In July 2018, FiveThirtyEight published a story based on this collection of tweets to illustrate the actions of the so-called Russian "troll factory". Another outlet - Wired, also investigated the data set before producing a piece entitled "How Americans Wound Up on Twitter's List of Russian Bots". 
