@@ -1,0 +1,35 @@
+
+1. The table containing all the inmates of the Boone County Jail.
+
+This is the table started with the following tag:
+
+<tbody class="stripe" id="mrc_main_table">
+              
+2. The table containing all the passed legislation from the Missouri Legislature.
+
+This is the table started with the following tag:
+
+<table id="Table1" style="HEIGHT: 232px" cellspacing="1" cellpadding="1" width="100%" border="0">
+
+3. The table containing all the minutes of the Columbia City Council.
+
+In this case, I think the easiest way would be to grab the contents of the table started with the following tag:
+
+<table width="100%" border="1" cellspacing="0" cellpadding="4" style="clear:both;"
+
+Export them into a .csv file and then only take the minutes.
+
+4. The element containing the mug shot of a detainee in the Boone County Jail.
+
+<img alt="Mugshot of ACTON, ANTHONY SEAN" src="SH01 MP.I00620s?CNTYP=97824" title="ACTON, ANTHONY SEAN">
+
+5. Modifying a request and response transaction.
+
+We modify the year in the following request:
+
+https://house.mo.gov/MemberGridCluster.aspx?category=county&county=Boone&year=2019&code=R
+
+2019 should be substituted with 2005
+
+https://house.mo.gov/MemberGridCluster.aspx?category=county&county=Boone&year=2005&code=R
+
